@@ -1,5 +1,5 @@
 {% set name = "matplotlibhelper" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4d24ccd18c4ea3122654e41aef160fb4f21581f6d03c16fbed8f150b53e316c5
+  sha256: f748987e7a2a3805965cb6a234c30018e42b7056a5a356e754ae3bcd22bba7b4
 
 build:
   noarch: python
